@@ -1,0 +1,533 @@
+# def func(a,b):
+    
+#     func(fname="vijay",lname="kumar" )
+#     print
+
+
+# def sum (a):
+#    sum1=0
+#    sum=a%10
+#    while a>10:
+#    a=a//10
+#    s1=a%10
+
+#    sum1=a+sum1+s1
+# print(sum)
+# sum(123)
+
+# def sum(n):
+#    l=n%10
+#    while n>10:
+#       n=n//10
+# print(l+n)
+
+
+
+# user="vijay123"
+# password=12345
+# def login():
+#    while True:
+#       u=input("enter the user")
+#       p=input("enter the password")
+#       if u==user and p==password:
+#          print("login succesfully")
+#          break
+#       else:
+#          print("please try again")
+# login()
+
+
+# def fact(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+#     c=int(input("enter the number:"))
+#     res=fact(c)
+#     print(res)
+
+# def fab(n):
+#         if n==1:
+#             return 0
+#         elif n==2:
+#             return 1
+#         else:
+#             return fab(n-1)+fab(n-2)
+# c=int(input("enter the nuber:"))
+# r=fab(c)
+# print (r)
+
+
+# def rev(n):
+#    if n==0:
+#     return
+#    print(n%10)
+#    return rev(n//10)
+
+# rev(12345)
+
+# def digit(n):
+#     if n==0:
+#         return 0
+#     return 1+digit(n//10)
+# print(digit(12345))
+        
+        
+
+# def sum(n):
+#     if n==0:
+#         return 0
+#     return(n%10)+sum(n//10)
+# print(sum(12345))
+
+
+# def count(n):
+#     if n==0:
+#         return 0
+#     else:
+#         return 1+count(n//10)
+# def arm(n):
+#     global r
+#     if n==0:
+#         return 0
+#     else:
+#         re=n%10
+#         return re**r+arm(n//10)
+# num=int(input("enter the number:"))
+# r=count(num)
+# a=arm(num)
+# if num==a:
+#     print("Yes")
+# else:
+#     print("No")    
+
+# creating lists
+
+# list=[1,2,3,4,5]
+# print(list)
+
+# # accesing list
+
+# print(list[1],list[2],list[4],list[-1])
+
+# # slicing list
+
+# print(list[:3])
+# print(list[::2])
+
+# # loop accesing
+# for i in list:
+#     print(i,end=" ")
+#     print()
+    
+# # append 
+# list=list.append(65)
+# for i in list:
+#    print(i)
+
+# mylist=[12,42,23,96,7,18,10,133]
+# min=0
+# max=0
+# for i in range(len(mylist)):
+#     if min>list[i]:
+#         min = list[i]
+#         minid = 1
+#     if max<list[i]:
+#        max = list[i]
+#        maxid=1
+#        s=min+max
+#        d=max-min
+#        list[minid] = d
+#        list[maxid] = s
+
+        
+# dict={"name":"vijay","id":"17"}
+# print(dict["name"])
+
+
+
+# mylist=[-1,42,65,1,-4,6]
+
+# rem=0
+# for i in mylist:
+#     if i<0:
+#         if i<rem:
+#             rem=i
+# print(rem)  
+
+
+
+# mylist=[22,-1,42,65,1,-4,6]
+
+# rem=0
+# for i in mylist:
+#     if i>0:
+#         if i>rem:
+#             rem=i
+# print(rem)  
+
+
+
+# mylist=[22,-1,42,65,1,-4,6]
+# m1=999
+# m2=999
+# for i in mylist:
+#     if i<m1:
+#         m2=m1
+#         m1=i
+# print(m2)        
+
+# a,b,c=map(int,input.split())
+# print(a,b,c) 
+
+# a=map ("check",(2,3,4,71,7,13))
+
+# def  check(n):
+#     if n%2==0:
+#         print("you")
+#     elif (n+1)%2==0:
+#         print("No")
+#     else:
+#         print("enter again")        
+
+
+
+
+# set={1,2,2,3,"vijay","vijay"}
+# print(set)
+
+
+# set.add(23)
+# print(set)
+
+# set1=(17,16,15)
+# set.update(13,12,11)
+# print(set)
+
+# set.pop()
+# print(set)
+
+# fs=frozenset(set)
+# print(fs)
+
+
+
+# l=[2,0,1024,0,40,230,0]
+
+# for i in (l):
+#     if i<0:
+#         print(l,end=" ")
+# for i in (l):
+#     if i==0:
+#         print(l,end=" ")    
+
+
+
+
+# l1=[2,0,1024,0,40,230,0]
+# l2=[]
+# for i in l1:
+#     if i!=0:
+#         l2.append(i)
+# for i in l2:
+#     if i==0:
+#         l1.append(i)
+
+
+# class F15:
+#     def light(self,color):
+#         print("the color is :",color)
+#     def fan(self,speed):
+#         self.speed=speed
+#         print("the speed is :",speed)
+#     def ac(self,r,o):
+#         self.r=r 
+#         self.o=o
+#         print("the room and outside temprature of Ac :",self.r,self.o)
+#     def display(self):    
+#         d=self.o-self.r
+#         print("the difference of Room and Outside Temprature :",d)
+#         print("the speed of fans:",self.speed)
+
+# a=F15
+# a.light("red")
+# a.fan(3)
+# a.ac(23,24)
+# a.display()
+
+
+
+
+# class F15:
+#     def __init__(self,a,b):
+#         print("constructer")
+#         a=10
+#         b=23.4
+#         print(a*b)        
+
+    
+    # def light(self,color):
+    #     print("the color is :",color)
+    # def fan(self,speed):
+    #     self.speed=speed
+    #     print("the speed is :",speed)
+    # def ac(self,r,o):
+    #     self.r=r 
+    #     self.o=o
+    #     print("the room and outside temprature of Ac :",self.r,self.o)
+    # def display(self):    
+    #     d=self.o-self.r
+    #     print("the difference of Room and Outside Temprature :",d)
+    #     print("the speed of fans:",self.speed)
+
+
+# class F15:
+#     def __init__(self,n1,n2):
+#         print("start time:",n1)
+#         print("end time:",n2)
+#         self.s=n1
+#         self.e=n2
+#     def display(self):
+#         print("start time:",self.s)
+#         print("end time:",self.s)
+
+# obj=("9:00am","4:00pm")
+# obj.display()       
+
+
+# class showroom():
+#     def carCompany(slef,com):
+#         toyota_list=["fortuner" ,"fortuner at","swift"]
+#         mahindra_list=["thar","fortuner","swift"]
+#         mersedes_list=["swift","benz","thar"]
+#         if com=="toyota" or com=="TOYOTA" or com=="Toyota":
+#          print("Welcome To Toyota company")
+#          print()
+         
+
+#         print("yes sir,it is available")
+#         mahindra=("mahindra thar" )
+
+# class showroom:
+#     def pricedisplay(self,com,model):
+#         mersedes_price=["15000","250000","320000"]
+#         mersedes_insurance=["0.1","0.2","0.3"]
+#         toyota_price=["230000","160000","120000"]
+#         toyata_insurence=["0.1","0.2",]
+#         mahindra_price=["130000","140000","850000"]
+# class showroom:
+
+
+
+
+# class showroom:
+#     class toyota:
+#         def display():
+#             print("toyota")
+#     class mahindra:
+#         def display():
+#             print("mahindra")
+# obj=showroom
+# obj1=obj.toyota
+# obj2=obj.mahindra
+# obj1.display()  
+# obj2.display()                    
+            
+
+
+# class faculity:
+#     def __init__(self,f_name,department,f_id):
+#         self.f_name=f_name
+#         self.department=department
+#         self.f_id=f_id
+#     def print_info(self):
+#         print('faculity information=',self.f_name,self.department,self.f_id)
+# obj=faculity("vijay","mechanical","100")
+# obj.print_info()
+
+# class Cse(faculity):
+#     pass
+# obj=Cse("reddy","it","12")
+# obj.print_info()
+
+
+# class placements():
+#     def __init__(self,count):
+#         self.count=count
+#     def displays(self):
+#         print(f'we have number of placements:{self.count}and still count')
+# plac=placements(650) 
+# plac.displays()   
+
+# class department():
+#     def display_department(self):
+#         print("department are present in college are:\n1.Cse\n2.Ece\n3.Mech")
+# bef=department()
+# bef.display_department()
+# class pragati(department,placements):
+#     def dis(self):
+#         print("welcome to pragati engineering college")                    
+# clg=pragati(650)
+# clg.dis()
+# clg.displays()
+
+# FUNCTION OVERLOADING
+# FUNCTION OVERLOADING IS NOT SUPPORTING IN PYTHON,IF HAVE MULTIPLE SAME FUNCTIONS ONLY LAST FUNCTION CAN EXECUTE
+
+# class Arithmatic:
+#     def add(self,a):
+#         print(a)
+#     def add (self,a,b): 
+#         print(a+b)
+#     def add(self,a,b,c):
+#         print(a+b+c) 
+# obj=Arithmatic()
+# # obj.add(10)
+# # obj.add(10,20)
+# obj.add(1,2,3)
+
+
+
+# class father:
+#     def bike(self):
+#         print("harley davidson")
+#     def car(self):
+#         print("mersedes benz")
+
+# class vijay(father):
+#     def car(self):
+#         print("to ride a bike")
+# obj=vijay()
+# obj.bike()
+# obj.car()
+
+# from abc import ABC,abstractmethod
+# class Ticket(ABC):
+#     @abstractmethod
+#     def bookTicket():
+#         pass
+# class MakeMyTrip(Ticket):
+#     def bookTicket(self):
+#         print("welcome to MakeMyTrip")
+#         self.name=input("enter the name:")    
+#         self.phonenumber=input("enter the phone number:")
+#         self.emailid=input("enter the emailid:")
+#         self.journeydate=input("enter your journey date:")
+#         print("thank you for book your Tickets:")
+# class irctc(MakeMyTrip):
+#     def bookTicket(slef):
+#         choice=input("to selcct the weather on thre road:")
+#         if choice=="r":
+#            c=input("plase enter the return date")
+#            print("thank you for choice irctc")
+#         else:
+#          print("thank you for choice irctc")
+# class indigo(irctc):
+#     def bookTicket(self):
+#         c=input("enter the which type of transport do you want train or flight :")
+#         print("thank you for choice the indigo")
+# obj=indigo()
+# obj.bookTicket()        
+
+
+
+# create a ATM syctem
+# display the remaining of amount
+#  authentication of user (user and password) if the user is authenticated then give him the following options to choose
+# 1.check balance 2.cash withdraw 3.cash deposit
+# mini statement of last 3 transations,card renewal 
+
+
+
+
+# import csv
+
+# f=open("student.csv","a",newline="")
+# a=csv.writer(f)
+# a.writerow(["studentid","rollno","name","mobileno"])
+# studentid=int(input("enter student id:"))
+# rollno=int(input("enter your roll no:"))
+# name=input("enter your name:")
+# mobileno=int(input("enter your mobile no:"))
+
+# a.writerow([studentid,rollno,name,mobileno])
+
+# import csv
+# id=[]
+# name=[]
+
+# with open("student.csv","r",newline=""):
+#     read=csv.DictReader()
+#     for row in read:
+#         print(row["studentid"])
+#         print(row[name])
+
+#create a e comerce project where the user can register and login himself ,he can see what all are projects,present and
+# the project contain name ,price,category and stockleft.from these products user can place a order just by the product name and the quality he ,want to puchase ,once he enter the bill should be 
+        
+# class Register:
+#     def reg(self):
+#         print("welcome to shopping")
+# choice=input("please login or register[if iog press1]")
+# user=input("enter the username:")
+# password=input("enter the password:")
+# phoneno=input("enter the phone number:")
+# emailid=input("enter the emailid:")
+# r=Register()
+# print("Register successfully")
+
+# import csv
+
+# class Register:
+
+#     def reg(self,u,p,e,m):
+#         with open("student.csv","w",newline="")
+            
+
+import csv
+
+
+class Register:
+    
+    def reg(self,u,p,e,m):
+        with open("userdata.csv","a",newline="")as file:
+            w=csv.writer(file)
+            w.writerow([u,p,e,m])
+   
+    def login(self, u, p):
+        with open("userdata.csv", "r", newline="") as file:
+            read = csv.DictReader(file)
+            for row in read:
+                if row["username"] == u and row["password"] == p:
+                    return True
+            return False            
+        
+
+
+
+# from Register import Register
+# print("-------------------------------------------------------------------------------------------------------------")
+# print("*WELCOME TO SHOPPING SITE*")
+# while True:
+#     print("---------------------------------------------------------------------------------------------------------------------")
+#     choice=input("Please Login Or Register[if login press l ,otherwise press r]:")
+#     if choice=="r":
+#         print("---------------------------------------------------------------------------------------------------------")
+#         username=input("Please Enter the User Name:")
+#         password=input("Enter The Password:")
+#         email=input("Enter The Email:")
+#         mobileno=int(input("Enter The Mobile Number:"))
+#         r=Register()
+#         r.reg(username,password,email,mobileno)
+#         print("**Registration Successful**")
+#     elif choice=="l":
+#         print("-----------------------------")
+#         username=input("Please Enter the User Name:")
+#         password=input("Enter The Password:")
+#         l=Register()
+#         res=l.login(username,password) 
+#         if res:
+#             print("**Login Successfull**") 
+#             break
+#         else:
+#             print("We Have No Account,Please Register Now....")        
